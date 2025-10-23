@@ -144,7 +144,6 @@ namespace LCDE.Controllers
             }
         }
 
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Editar(UsuarioActualizarDTO usuario)
